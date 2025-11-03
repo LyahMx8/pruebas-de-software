@@ -1,5 +1,5 @@
 import unittest
-from CuentaBancaria import CuentaBancaria
+from cuenta-bancaria import CuentaBancaria
 
 class TestCuentaBancaria(unittest.TestCase):
     def setUp(self):

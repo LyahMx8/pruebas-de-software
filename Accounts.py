@@ -25,6 +25,5 @@ class AccountManager:
         if not self.login(username, old_password):
             return False
         
-        
         self._users[username] = new_password
         return True
